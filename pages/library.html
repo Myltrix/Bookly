@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookly | Библиотеки</title>
+    <link rel="icon" type="image/png" href="../images/Bookly.png">
+    <link rel="stylesheet" href="../css/library.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="close-sidebar" id="closeSidebar">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="sidebar-header">
+            <h3>Разделы</h3>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="library.html"><i class="fas fa-tags"></i> Библиотеки</a>
+            <a href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a>
+        </nav>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="logo">
+                    <a href="../index.html" class="logo-link">
+                        <img src="../images/Bookly.png" alt="Bookly Logo" class="logo-img">
+                        <div class="logo-text">
+                            <h1>Bookly</h1>
+                            <p>Онлайн-библиотека</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="header-actions">
+                    <button class="cart-btn" id="cartBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="catalog.html"><i class="fas fa-book"></i> Каталог</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> О магазине</a></li>
+                    <li><a href="contacts.html"><i class="fas fa-envelope"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Библиотеки Астаны</h1>
+                <p class="page-subtitle">Лучшие места для чтения и изучения книг в столице</p>
+            </div>
+        </section>
+
+        <section class="section intro-section">
+            <div class="container">
+                <div class="section-intro">
+                    <h2 class="section-title">Откройте мир книг в Астане</h2>
+                    <p class="section-subtitle">
+                        Астана предлагает множество прекрасных библиотек и читальных залов, где можно 
+                        погрузиться в мир литературы, найти редкие издания и насладиться атмосферой чтения.
+                    </p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>12+</h3>
+                            <p>Библиотек в Астане</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>50,000+</h3>
+                            <p>Постоянных читателей</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>2M+</h3>
+                            <p>Книг в фондах</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>100+</h3>
+                            <p>Мероприятий в год</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section libraries-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Лучшие библиотеки города</h2>
+                    <p class="section-subtitle">Посетите эти замечательные места для чтения и изучения</p>
+                </div>
+
+                <div class="libraries-grid" id="librariesGrid">
+                </div>
+            </div>
+        </section>
+
+        <section class="section tips-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Советы для посетителей</h2>
+                    <p class="section-subtitle">Как получить максимальное удовольствие от посещения библиотек</p>
+                </div>
+
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <h3>Оформите читательский билет</h3>
+                        <p>Большинство библиотек предоставляют бесплатные читательские билеты при предъявлении удостоверения личности</p>
+                    </div>
+                    
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Используйте электронный каталог</h3>
+                        <p>Проверьте наличие нужной книги в онлайн-каталоге перед посещением библиотеки</p>
+                    </div>
+                    
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Уточните график работы</h3>
+                        <p>Некоторые библиотеки имеют особый график в выходные и праздничные дни</p>
+                    </div>
+                    
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>Посещайте мероприятия</h3>
+                        <p>Библиотеки регулярно проводят литературные вечера, встречи с авторами и мастер-классы</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section map-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Карта библиотек Астаны</h2>
+                    <p class="section-subtitle">Все библиотеки на одной карте для вашего удобства</p>
+                </div>
+
+                <div class="map-wrapper">
+                    <div class="map-placeholder" id="mapPlaceholder">
+                        <div class="map-overlay">
+                            <div class="map-info">
+                                <h3>Библиотеки Астаны</h3>
+                                <p><i class="fas fa-map-marker-alt"></i> 12 библиотек по всему городу</p>
+                                <p><i class="fas fa-book"></i> Более 2 миллионов книг</p>
+                                <a href="https://2gis.kz/astana/search/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0" 
+                                   class="btn btn-primary" id="openMap" target="_blank">
+                                    <i class="fas fa-external-link-alt" style="color: white;"></i> Посмотреть в 2ГИС
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../images/Bookly.png" alt="Bookly Logo" class="footer-logo-img">
+                    <div class="footer-logo-text">
+                        <h3>Bookly</h3>
+                        <p>Лучшие книги для вас с 2026 года</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Разделы</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> bookly.official@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +7 (717) 45-67-89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Астана, пр. Қабанбай батыра, 25</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bookly. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/library.js"></script>
+</body>
+</html>

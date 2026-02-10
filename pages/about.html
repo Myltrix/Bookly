@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookly | О магазине</title>
+    <link rel="icon" type="image/png" href="../images/Bookly.png">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="close-sidebar" id="closeSidebar">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="sidebar-header">
+            <h3>Разделы</h3>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="library.html"><i class="fas fa-tags"></i> Библиотеки</a>
+            <a href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a>
+        </nav>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="logo">
+                    <img src="../images/Bookly.png" alt="Bookly Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>Bookly</h1>
+                        <p>Онлайн-библиотека</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="cart-btn" id="cartBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="catalog.html"><i class="fas fa-book"></i> Каталог</a></li>
+                    <li><a href="about.html" class="active"><i class="fas fa-info-circle"></i> О магазине</a></li>
+                    <li><a href="contacts.html"><i class="fas fa-envelope"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">О магазине Bookly</h1>
+                <p class="page-subtitle">Наша миссия, ценности и команда</p>
+            </div>
+        </section>
+
+        <section class="section mission-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Наша миссия и ценности</h2>
+                    <p class="section-subtitle">Что движет нами вперед</p>
+                </div>
+                    
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-book-reader"></i>
+                            </div>
+                            <h4>Доступность</h4>
+                            <p>Делаем книги доступными для всех регионов России с быстрой доставкой и конкурентными ценами.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Любовь к чтению</h4>
+                            <p>Мы сами страстные читатели и понимаем, что важно для настоящих ценителей литературы.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>Инновации</h4>
+                            <p>Постоянно улучшаем сервис, внедряем новые технологии для лучшего опыта покупок.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section team-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Наша команда</h2>
+                    <p class="section-subtitle">Люди, которые создают Bookly</p>
+                </div>
+                
+                <div class="team-grid" id="teamGrid">
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Присоединяйтесь к нашему сообществу читателей</h2>
+                    <p class="cta-text">Откройте для себя мир литературы с Bookly. Найдите свою следующую любимую книгу уже сегодня!</p>
+                    <div class="cta-buttons">
+                        <a href="catalog.html" class="btn btn-primary">Перейти в каталог</a>
+                        <a href="contacts.html" class="btn btn-secondary">Связаться с нами</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../images/Bookly.png" alt="Bookly Logo" class="footer-logo-img">
+                    <div class="footer-logo-text">
+                        <h3>Bookly</h3>
+                        <p>Лучшие книги для вас с 2026 года</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Разделы</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> bookly.official@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +7 (717) 45-67-89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Астана, пр. Қабанбай батыра, 25</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bookly. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../js/index.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/about.js"></script>
+</body>
+</html>

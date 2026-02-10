@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookly | Контакты</title>
+    <link rel="icon" type="image/png" href="../images/Bookly.png">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="close-sidebar" id="closeSidebar">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="sidebar-header">
+            <h3>Разделы</h3>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="library.html"><i class="fas fa-tags"></i> Библиотеки</a>
+            <a href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a>
+        </nav>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="logo">
+                    <img src="../images/Bookly.png" alt="Bookly Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>Bookly</h1>
+                        <p>Онлайн-библиотека</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="cart-btn" id="cartBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="catalog.html"><i class="fas fa-book"></i> Каталог</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> О магазине</a></li>
+                    <li><a href="contacts.html" class="active"><i class="fas fa-envelope"></i> Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Контакты</h1>
+                <p class="page-subtitle">Свяжитесь с нами любым удобным способом</p>
+            </div>
+        </section>
+
+        <section class="section contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 class="contact-title">Наши контакты</h2>
+                        <p class="contact-description">
+                            Мы всегда рады помочь вам с выбором книг, ответить на вопросы 
+                            и принять ваши предложения. Свяжитесь с нами любым удобным способом.
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Адрес</h3>
+                                    <p>Астана, пр. Қабанбай батыра, д. 25, офис 405</p>
+                                    <p class="contact-hint">Ближайшее метро: Сарыарка</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Телефоны</h3>
+                                    <p>+7 (717) 45-67-89</p>
+                                    <p>+7 (771) 123-45-67</p>
+                                    <p class="contact-hint">Пн-Пт: 9:00-20:00, Сб-Вс: 10:00-18:00</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Email</h3>
+                                    <p>info@bookly.kz</p>
+                                    <p>support@bookly.kz</p>
+                                    <p class="contact-hint">Ответим в течение 24 часов</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h3>Время работы</h3>
+                                    <p>Понедельник - Пятница: 9:00 - 20:00</p>
+                                    <p>Суббота - Воскресенье: 10:00 - 18:00</p>
+                                    <p class="contact-hint">Онлайн-заказы принимаются 24/7</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h3>Мы в соцсетях</h3>
+                            <div class="social-icons">
+                                <a href="https://vk.com/bookly_kz" class="social-icon" title="VK" target="_blank">
+                                    <i class="fab fa-vk"></i>
+                                </a>
+                                <a href="https://t.me/bookly_kz" class="social-icon" title="Telegram" target="_blank">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                                <a href="https://instagram.com/bookly_kz" class="social-icon" title="Instagram" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://youtube.com/@bookly_kz" class="social-icon" title="YouTube" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <div class="form-header">
+                            <h2 class="form-title">Форма обратной связи</h2>
+                            <p class="form-subtitle">Заполните форму и мы свяжемся в ближайшее время</p>
+                        </div>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Имя</label>
+                                <input type="text" id="name" name="name" required 
+                                       placeholder="Введите ваше имя">
+                                <div class="error-message" id="nameError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required 
+                                       placeholder="Введите ваш email">
+                                <div class="error-message" id="emailError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Телефон</label>
+                                <input type="tel" id="phone" name="phone" 
+                                       placeholder="+7 (771) 123-45-67">
+                                <div class="error-message" id="phoneError"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Сообщение</label>
+                                <textarea id="message" name="message" rows="5" required 
+                                          placeholder="Опишите ваш вопрос или предложение..."></textarea>
+                                <div class="error-message" id="messageError"></div>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary btn-submit">
+                                    <i class="fas fa-paper-plane"></i> Отправить
+                                </button>
+                                <button type="reset" class="btn btn-secondary btn-reset">
+                                    <i class="fas fa-redo"></i> Очистить
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <div class="success-message" id="successMessage" style="display: none;">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Сообщение отправлено!</h3>
+                            <p>Спасибо за ваше обращение. Мы свяжемся с вами в ближайшее время.</p>
+                            <button class="btn btn-secondary" id="sendAnother">
+                                Отправить еще одно сообщение
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section map-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Как нас найти</h2>
+                    <p class="section-subtitle">Мы находимся в центре Астаны</p>
+                </div>
+                
+                <div class="map-wrapper">
+                    <div class="map-placeholder bg-map" id="mapPlaceholder">
+                        <div class="map-overlay">
+                            <div class="map-info">
+                                <h3>Наш офис</h3>
+                                <p><i class="fas fa-map-marker-alt"></i> Астана, пр. Қабанбай батыра, д. 25</p>
+                                <p><i class="fas fa-subway"></i> Метро: Сарыарка</p>
+                                <a href="https://go.2gis.com/14G79" class="btn btn-primary" id="openMap" target="_blank">
+                                    <i class="fas fa-external-link-alt" style="color: white;"></i> Открыть в 2ГИС
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="transport-info">
+                    <div class="transport-grid">
+                        <div class="transport-card">
+                            <div class="transport-icon">
+                                <i class="fas fa-subway"></i>
+                            </div>
+                            <h3>Метро</h3>
+                            <p>Станция "Сарыарка"</p>
+                            <p>7 минут пешком от выхода</p>
+                        </div>
+                        
+                        <div class="transport-card">
+                            <div class="transport-icon">
+                                <i class="fas fa-bus"></i>
+                            </div>
+                            <h3>Автобус</h3>
+                            <p>Остановка "Пр. Қабанбай батыра"</p>
+                            <p>Маршруты: 10, 18, 21, 35, 40</p>
+                        </div>
+                        
+                        <div class="transport-card">
+                            <div class="transport-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <h3>На автомобиле</h3>
+                            <p>Парковка рядом с офисом</p>
+                            <p>Первые 3 часа бесплатно</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section faq-preview">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Частые вопросы</h2>
+                    <p class="section-subtitle">Здесь вы найдёте ответы на самые распространённые и часто задаваемые вопросы, которые помогут быстро разобраться в интересующих вас темах.</p>
+                </div>
+                <div class="faq-grid" id="faqGrid">
+                </div>                
+                <div class="text-center">
+                    <a href="faq.html" class="btn btn-primary">
+                        <i class="fas fa-question-circle"></i> Все вопросы и ответы
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../images/Bookly.png" alt="Bookly Logo" class="footer-logo-img">
+                    <div class="footer-logo-text">
+                        <h3>Bookly</h3>
+                        <p>Лучшие книги для вас с 2026 года</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Разделы</h4>
+                    <ul>
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> bookly.official@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +7 (717) 45-67-89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Астана, пр. Қабанбай батыра, 25</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bookly. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/contacts.js"></script>
+</body>
+</html>
