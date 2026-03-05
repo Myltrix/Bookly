@@ -43,7 +43,6 @@ Bookly is a multi-page online bookstore built as the final project for a JavaScr
 - Order Form – additional form demonstrating submit handling and condition checks in JavaScript
 
 ## ⚙️ JavaScript Features
-The project implements all required JavaScript concepts:
 - Variables & Data Types (strings, numbers, booleans)
 - Conditionals & Loops (if/else, switch, for loops)
 - Custom Functions (add to cart, validate form, calculate total)
