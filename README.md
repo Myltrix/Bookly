@@ -10,8 +10,8 @@
       </p>
       <p style="font-size: 16px;">
         <strong style="color: #d4a574;">Live :</strong><br>
-        <a href="https://myltrix.github.io/Bookly/" target="_blank" style="color: #b8860b; font-weight: bold; text-decoration: none; font-size: 18px;">
-          https://myltrix.github.io/Bookly/
+        <a href="https://tomiraoka.github.io/Bookly/" target="_blank" style="color: #b8860b; font-weight: bold; text-decoration: none; font-size: 18px;">
+          https://tomiraoka.github.io/Bookly/
         </a>
       </p>
       <p style="font-size: 16px;">
